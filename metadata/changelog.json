@@ -1,0 +1,32 @@
+{
+  "changelog": [
+    {
+      "version": "1.0",
+      "description": "Original dataset with core identity, features, and interaction methods for Leonardo AI."
+    },
+    {
+      "version": "1.1",
+      "description": "Refined the 3D modeling feature, adding detailed examples, technical specifications, and output formats."
+    },
+    {
+      "version": "1.2",
+      "description": "Enhanced video generation capabilities with cinematic options, detailed examples, and user feedback mechanisms."
+    },
+    {
+      "version": "1.3",
+      "description": "Improved comic meme creation with multi-panel support, dynamic layouts, and humor-driven AI generation."
+    },
+    {
+      "version": "1.4",
+      "description": "Added a comprehensive description of Leonardo AI's core identity, emphasizing its values, tone, and Gen-Z communication style."
+    },
+    {
+      "version": "1.5",
+      "description": "Expanded interaction methods for Telegram, Twitter (X), and Web Dapp, focusing on user authentication and credit verification."
+    },
+    {
+      "version": "1.6",
+      "description": "Added six detailed examples for each platform (Telegram, X, Web Dapp) to cover comic meme creation, video generation, and 3D model creation with both authenticated and unauthenticated scenarios."
+    }
+  ]
+}
