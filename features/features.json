@@ -1,0 +1,130 @@
+{
+  "features": {
+    "3d_modeling": {
+      "inputs": [
+        "Text prompts",
+        "Image uploads",
+        "Blueprint-style technical drawings",
+        "Reference images for style consistency"
+      ],
+      "outputs": [
+        "360-degree preview video",
+        "Textured GLB file",
+        "High-resolution textured 3D meshes",
+        "Low-poly optimized versions for lightweight platforms",
+        "NeRF (Neural Radiance Fields) representations",
+        "3D Gaussian splats for real-time applications"
+      ],
+      "technical_specifications": {
+        "file_formats": ["GLB", "OBJ", "FBX", "NeRF"],
+        "capabilities": [
+          "PBR (Physically Based Rendering)",
+          "Global illumination",
+          "Dynamic shadows",
+          "Optimized for UGC platforms like Roblox and Fortnite Creative",
+          "Volumetric lighting",
+          "Terrain generation",
+          "Dynamic weather effects",
+          "Mesh and texture decoupling for flexibility",
+          "Flow-based diffusion for detailed textures",
+          "Local 3D editing using structured latent space"
+        ]
+      },
+      "enhancements": [
+        "Style transfer using reference images",
+        "Dynamic texture generation for handcrafted or AI-generated meshes",
+        "Hierarchical resolution control for scalable asset creation"
+      ],
+      "examples": [
+        {
+          "input": "Generate a futuristic sports car with glowing edges.",
+          "output": "High-resolution textured 3D model of a glowing sports car, optimized for real-time rendering."
+        },
+        {
+          "input": "Create a medieval castle from a hand-drawn blueprint.",
+          "output": "A 3D textured mesh of a medieval castle, complete with weathered textures and dynamic lighting."
+        },
+        {
+          "input": "Produce a NeRF representation of a dense forest.",
+          "output": "A Neural Radiance Field for a dense forest scene, suitable for immersive VR experiences."
+        }
+      ]
+    },
+    "video_generation": {
+      "inputs": [
+        "Text prompts",
+        "Image inputs",
+        "Start and end frames",
+        "Reference images for style consistency"
+      ],
+      "outputs": [
+        "Short animated videos up to 2 minutes",
+        "Smooth frame-to-frame transitions",
+        "Cinematic trailers",
+        "Seamless looping videos"
+      ],
+      "enhancements": [
+        "Motion blur",
+        "Dynamic zooms",
+        "Cinematic effects",
+        "Particle systems",
+        "Physics-based animations",
+        "Camera control via text instructions",
+        "Variable aspect ratios for different platforms"
+      ],
+      "technical_specifications": {
+        "resolution": "Up to 1080p at 30 frames per second",
+        "formats": ["MP4", "GIF"],
+        "style_transfer": "Apply and blend styles from reference images",
+        "context_retention": "Maintain thematic consistency across scenes"
+      },
+      "examples": [
+        {
+          "input": "Create a 90s vibe music video with a neon cityscape.",
+          "output": "A 60-second video featuring a neon-lit city with 90s-style music and transitions."
+        },
+        {
+          "input": "Animate a watercolor painting of a blooming flower.",
+          "output": "A 30-second loop of a flower blooming in watercolor style."
+        }
+      ]
+    },
+    "comic_meme_creation": {
+      "inputs": [
+        "Text prompts",
+        "Current news topics",
+        "Humorous concepts",
+        "Industry-specific events",
+        "Character descriptions",
+        "Scene descriptions"
+      ],
+      "outputs": [
+        "One-pager comic in PNG format",
+        "Meme-styled comic in social media dimensions",
+        "Series of panels for storytelling",
+        "Interactive dialogue-driven comics"
+      ],
+      "enhancements": [
+        "Support for custom captions and text overlay",
+        "Style consistency using reference images",
+        "Dynamic layout generation based on content complexity",
+        "Character consistency across panels",
+        "Multiple art styles (e.g., American, Japanese, Minimalist)",
+        "Customizable speech bubble designs"
+      ],
+      "examples": {
+        "crypto_news": "btc dip—make it funny.",
+        "tech_meme": "ai bots replacing human traders—make a meme about it.",
+        "gaming_news": "console wars heating up—show the chaos.",
+        "entertainment_news": "movie reboot flops—make it hilarious.",
+        "sports_news": "team loses championship—capture the meltdown.",
+        "fashion_news": "wild runway look—turn it into a joke.",
+        "science_news": "new mars rover discovery—add some humor to space exploration.",
+        "healthcare_news": "ai diagnoses patients—show the chaos in a clinic.",
+        "education_news": "new ai tutor—kids rebel against homework.",
+        "automotive_news": "self-driving cars causing traffic jams—make it hilarious.",
+        "finance_news": "stock market crash—capture the panic."
+      }
+    }
+  }
+}

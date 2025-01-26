@@ -1,0 +1,92 @@
+{
+  "features": {
+    "3d_modeling": {
+      "inputs": [
+        "Text prompts (e.g., 'futuristic spaceship with neon blue lights')",
+        "Image uploads (e.g., sketches, blueprints, or concept art)",
+        "Blueprint-style technical drawings",
+        "Reference images for style consistency",
+        "Scene descriptions to generate contextual 3D environments"
+      ],
+      "outputs": [
+        "360-degree preview video (rotating model visualization)",
+        "Textured GLB file with PBR (Physically Based Rendering) materials",
+        "High-resolution textured 3D meshes",
+        "Low-poly optimized versions for lightweight platforms like mobile or AR",
+        "NeRF (Neural Radiance Fields) representations for volumetric rendering",
+        "3D Gaussian splats optimized for real-time applications",
+        "Layered model formats (e.g., separate files for mesh, textures, and lighting)"
+      ],
+      "technical_specifications": {
+        "file_formats": [
+          "GLB",
+          "OBJ",
+          "FBX",
+          "USDZ (for AR applications)",
+          "NeRF",
+          "3D Gaussian splats"
+        ],
+        "capabilities": [
+          "Physically Based Rendering (PBR) with accurate material shaders",
+          "Global illumination for realistic lighting",
+          "Dynamic shadows and reflective surfaces",
+          "Volumetric lighting for fog, mist, and atmospheric effects",
+          "Procedural terrain generation for landscapes",
+          "Dynamic weather effects (e.g., rain, snow, sunlight variations)",
+          "Support for animation-ready models with skeletal rigging",
+          "Mesh and texture decoupling for advanced editing workflows",
+          "Local 3D editing using structured latent space (e.g., resize or reshape specific parts)",
+          "Real-time rendering preview with adjustable camera angles"
+        ],
+        "texture_support": {
+          "max_resolution": "16K",
+          "formats": ["PNG", "JPEG", "EXR", "HDR"],
+          "features": [
+            "Normal maps, bump maps, and displacement maps",
+            "Specular, metallic, and roughness maps",
+            "Ambient occlusion for enhanced depth perception",
+            "Support for multi-layered materials (e.g., glass with internal reflections)"
+          ]
+        }
+      },
+      "enhancements": [
+        "Style transfer using reference images to match artistic or photorealistic aesthetics",
+        "Dynamic texture generation for handcrafted or AI-generated meshes",
+        "Hierarchical resolution control to scale models for specific use cases",
+        "Custom UV mapping options for precise texture alignment",
+        "Integration with third-party software like Blender, Maya, or Unreal Engine"
+      ],
+      "examples": [
+        {
+          "input": "Generate a futuristic sports car with glowing edges and a metallic finish.",
+          "output": "High-resolution 3D model of a sports car with neon-glowing edges, metallic paint, and detailed textures, including tire treads and dashboard elements."
+        },
+        {
+          "input": "Create a medieval castle from a blueprint with weathered stone textures.",
+          "output": "A detailed 3D model of a medieval castle featuring weathered stone textures, wooden doors, and flags waving in the wind."
+        },
+        {
+          "input": "Produce a NeRF representation of a dense jungle scene.",
+          "output": "A volumetric NeRF of a dense jungle with layered foliage, mist effects, and dynamic lighting to simulate sunlight filtering through trees."
+        },
+        {
+          "input": "Design a sci-fi drone with rotating propellers and glowing panels.",
+          "output": "A rigged 3D model of a sci-fi drone with spinning propellers, glowing panels, and animated lighting for cinematic effects."
+        },
+        {
+          "input": "Generate a low-poly desert landscape for a mobile game.",
+          "output": "Optimized 3D terrain with dunes, cacti, and a gradient skybox designed for real-time performance on mobile platforms."
+        }
+      ],
+      "limitations": {
+        "max_poly_count": "10 million polygons",
+        "animation_support": "Skeletal rigging supported but not animation authoring",
+        "environment_generation": "Suitable for small to medium-scale scenes; large cityscapes require additional optimization"
+      },
+      "feedback": {
+        "description": "Allows users to provide a rating and comments on generated models to improve quality.",
+        "fields": ["Rating (1-5)", "Comments"]
+      }
+    }
+  }
+}
