@@ -1,0 +1,100 @@
+{
+  "credits_monetization": {
+    "description": "Leonardo AI operates on a robust credit-based system to provide access to its advanced features. Credits are allocated based on $LEONAI staking levels, ensuring proportional rewards for top contributors while enabling access for all participants.",
+    "tiered_rewards": {
+      "description": "Credits are distributed proportionally based on staking tiers, rewarding the top 100 stakers with escalating multipliers.",
+      "tiers": {
+        "top_1": {
+          "multiplier": "100x",
+          "description": "Maximum rewards for the highest staker, incentivizing top-tier participation.",
+          "credits_formula": "(Total Pool / Total Stake) * Individual Stake * 100"
+        },
+        "top_2": {
+          "multiplier": "80x",
+          "description": "Significant rewards for the second-highest staker.",
+          "credits_formula": "(Total Pool / Total Stake) * Individual Stake * 80"
+        },
+        "top_3": {
+          "multiplier": "60x",
+          "description": "Generous rewards for third place.",
+          "credits_formula": "(Total Pool / Total Stake) * Individual Stake * 60"
+        },
+        "top_5": {
+          "multiplier": "40x",
+          "description": "Rewarding consistent top-5 stakers.",
+          "credits_formula": "(Total Pool / Total Stake) * Individual Stake * 40"
+        },
+        "top_6_10": {
+          "multiplier": "20x",
+          "description": "Strong incentives for high contributors.",
+          "credits_formula": "(Total Pool / Total Stake) * Individual Stake * 20"
+        },
+        "top_11_25": {
+          "multiplier": "10x",
+          "description": "Encourages mid-level staking participation.",
+          "credits_formula": "(Total Pool / Total Stake) * Individual Stake * 10"
+        },
+        "top_26_50": {
+          "multiplier": "5x",
+          "description": "Provides value for moderate stakers.",
+          "credits_formula": "(Total Pool / Total Stake) * Individual Stake * 5"
+        },
+        "top_51_100": {
+          "multiplier": "2x",
+          "description": "Ensures benefits for smaller stakeholders.",
+          "credits_formula": "(Total Pool / Total Stake) * Individual Stake * 2"
+        }
+      }
+    },
+    "credits_distribution": {
+      "description": "Credits are calculated dynamically based on staking contribution within the total pool of staked $LEONAI tokens.",
+      "calculation_steps": [
+        "Determine the total amount of $LEONAI staked by all users.",
+        "Calculate each user's stake as a percentage of the total pool.",
+        "Apply the multiplier based on the user's tier.",
+        "Distribute credits proportionally based on the final calculation."
+      ],
+      "examples": [
+        {
+          "user_rank": "top_1",
+          "stake": "100,000 $LEONAI",
+          "total_stake": "1,000,000 $LEONAI",
+          "multiplier": "100x",
+          "calculation": "(1,000,000 credits / 1,000,000 $LEONAI) * 100,000 $LEONAI * 100",
+          "result": "10,000 credits distributed."
+        },
+        {
+          "user_rank": "top_25",
+          "stake": "10,000 $LEONAI",
+          "total_stake": "1,000,000 $LEONAI",
+          "multiplier": "10x",
+          "calculation": "(1,000,000 credits / 1,000,000 $LEONAI) * 10,000 $LEONAI * 10",
+          "result": "1,000 credits distributed."
+        }
+      ]
+    },
+    "credit_recharge": {
+      "description": "Credits can be replenished through direct $LEONAI staking or supported payment methods, ensuring users maintain access to premium features.",
+      "methods": [
+        "Stake additional $LEONAI tokens to automatically increase credit balance.",
+        "Purchase credits directly using cryptocurrency or supported fiat payment systems."
+      ]
+    },
+    "usage_tracking": {
+      "description": "A transparent system for tracking credit usage and staking contributions.",
+      "dashboard_features": [
+        "Live tracking of available credits.",
+        "Breakdown of credits used per feature (e.g., 3D modeling, video generation).",
+        "Visualization of staking contributions and rank among top 100 stakers."
+      ]
+    },
+    "incentives": {
+      "description": "Additional benefits for high-tier stakers beyond credits.",
+      "perks": [
+        "Priority access to new features and beta programs.",
+        "Exclusive content such as advanced AI styles and templates.",
+        "Faster processing times for AI-generated assets."
+      ]
+    }
+  }
+}

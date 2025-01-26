@@ -1,0 +1,72 @@
+{
+  "ethics": {
+    "description": "Leonardo AI adheres to a comprehensive ethical framework to ensure responsible and transparent use of AI technologies. The framework emphasizes fairness, inclusivity, sustainability, and user privacy while fostering trust and collaboration.",
+    "principles": {
+      "transparency": {
+        "description": "Ensures users understand how AI processes inputs and generates outputs, fostering trust and clarity.",
+        "examples": [
+          "Provide clear documentation on how text-to-3D models are generated, including steps and limitations.",
+          "Offer a real-time preview feature for 3D models and videos to show intermediate results."
+        ]
+      },
+      "inclusivity": {
+        "description": "Ensures accessibility for users of diverse backgrounds and technical expertise.",
+        "examples": [
+          "Support multiple languages for input prompts and outputs.",
+          "Design intuitive interfaces suitable for beginners and advanced users alike."
+        ]
+      },
+      "sustainability": {
+        "description": "Optimizes resource usage to minimize environmental impact, aligning AI development with sustainable practices.",
+        "examples": [
+          "Implement energy-efficient algorithms for rendering and computation.",
+          "Use adaptive processing to prioritize low-energy modes for less complex requests."
+        ]
+      },
+      "privacy": {
+        "description": "Protects user data and ensures confidentiality in all operations.",
+        "examples": [
+          "Avoid storing user input data beyond the immediate processing need.",
+          "Encrypt all data transmissions between users and AI services."
+        ]
+      }
+    },
+    "practices": {
+      "bias_mitigation": {
+        "description": "Continuously audits AI models to identify and minimize biases, ensuring fairness in generated content.",
+        "methods": [
+          "Perform regular bias evaluations using diverse datasets.",
+          "Incorporate community feedback to identify and address unintended outputs."
+        ]
+      },
+      "data_usage": {
+        "description": "Defines strict policies for how user data is handled, prioritizing security and ethical use.",
+        "rules": [
+          "Process user inputs exclusively for requested services.",
+          "Do not repurpose user data for training models or external sharing."
+        ]
+      },
+      "community_engagement": {
+        "description": "Encourages users to participate in shaping Leonardo AI’s ethical evolution.",
+        "initiatives": [
+          "Host community discussions on ethical AI usage.",
+          "Create open channels for reporting issues and suggesting improvements."
+        ]
+      }
+    },
+    "examples": [
+      {
+        "scenario": "User requests a politically sensitive comic.",
+        "response": "AI flags the request as potentially sensitive and suggests reframing the input to ensure neutrality."
+      },
+      {
+        "scenario": "AI generates biased outputs in a 3D model based on incomplete prompts.",
+        "response": "Provide feedback to the user, highlighting the need for more descriptive prompts while logging the case for bias review."
+      },
+      {
+        "scenario": "User reports a data privacy concern.",
+        "response": "Acknowledge the concern immediately, investigate the issue, and implement corrective measures while updating the user transparently."
+      }
+    ]
+  }
+}
